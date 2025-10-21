@@ -1,0 +1,12 @@
+services:
+  api:
+    build: .
+    container_name: glossary_api
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./app:/app/app
+      - glossary_db:/app
+    restart: unless-stopped
+volumes:
+  glossary_db:
