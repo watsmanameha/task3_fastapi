@@ -1,0 +1,5 @@
+Method,Name,Error,Occurrences
+GET,/terms/{keyword} [GET 404],HTTPError('404 Client Error: Not Found for url: /terms/{keyword} [GET 404]'),298
+GET,/terms/{keyword} [GET] (RO),HTTPError('404 Client Error: Not Found for url: /terms/{keyword} [GET] (RO)'),49
+GET,/terms/{keyword} [GET],HTTPError('404 Client Error: Not Found for url: /terms/{keyword} [GET]'),16
+PUT,/terms/{keyword} [UPDATE],HTTPError('404 Client Error: Not Found for url: /terms/{keyword} [UPDATE]'),1
